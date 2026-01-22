@@ -5,14 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
-    <!-- <style>
-      .banner{
-        background: url("./assets/hero-bg.png") ;
-        background-repeat: no-repeat;
-        
-       
-      }
-    </style> -->
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    
 </head>
@@ -69,7 +62,7 @@ and share stories of personal growth from industry leaders.
 <br> Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
         </div>
 
-        <div class="card grid grid-cols-4 ml-48 mt-32 lg:grid-cols-4 ml-48 mt-32 sm:grid-cols-2 ml-0 mt-0 text-center items-center">
+        <div class="card grid grid-cols-2 lg:grid-cols-4 ml-48 mt-32 sm:grid-cols-2 ml-0 mt-0 text-center items-center">
           <div class="card1 flex flex-col ">
             <h2 class="text-[#00FF88] text-5xl gap-4
             lg:text-[#00FF88] text-5xl gap-4 sm:text-[#00FF88] text-4xl gap-4">150K+</h2>
@@ -89,12 +82,13 @@ and share stories of personal growth from industry leaders.
           </div>
         </div>
 
-        <div class="why-techwave flex-row justify-center text-center bg-[#230E3D]">
-              <h2 class="text-[#FFFFFF] text-5xl">Why Choose TechWave</h2>
+        <div class="why-techwave flex-row justify-center text-center bg-[#230E3D] sm:w-[100%]">
+              <h2 class="text-[#FFFFFF] text-5xl mt-16 pt-16">Why Choose TechWave</h2>
              
-                <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12 mx-[200px]">
+                
+             <section class="grid grid-cols-1 gap-6 mt-12 px-4 pb-16 sm:px-6 lg:grid-cols-3 lg:px-[200px]">
 
-                <div class="row-span-2 bg-[rgba(53,17,101,0.4)] rounded-2xl p-8 flex flex-col gap-4 text-left max-w-96 max-h-[480px] ">
+                <div class="row-span-2 bg-[rgba(53,17,101,0.4)] rounded-2xl flex flex-col gap-4 text-left p-8">
                   <img class="w-12 h-12" src="assets/headphone.png" alt="">
                   <h3 class="text-[#FFFFFF]">Premium Audio Quality</h3>
                   <p class="text-[#FFFFFF]">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
@@ -102,28 +96,66 @@ and share stories of personal growth from industry leaders.
 
                 <div class="col-span-2 bg-[rgba(53,17,101,0.4)] rounded-2xl p-8 flex flex-col gap-4 text-left">
                   <img class="w-12 h-12" src="assets/device.png" alt="">
-                  <h3 class="text-[#FFFFFF]">Premium Audio Quality</h3>
-                  <p class="text-[#FFFFFF]">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+                  <h3 class="text-[#FFFFFF]">Mobile Friendly</h3>
+                  <p class="text-[#FFFFFF]">Listen on the go with seamless mobile experience and offline downloads.</p>
                 </div>
 
                 <div class="col-span-2 bg-[rgba(53,17,101,0.4)] rounded-2xl p-8 flex flex-col gap-4 text-left">
                   <img class="w-12 h-12" src="assets/location.png" alt="">
-                  <h3 class="text-[#FFFFFF]">Premium Audio Quality</h3>
-                  <p class="text-[#FFFFFF]">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+                  <h3 class="text-[#FFFFFF]">Global Community</h3>
+                  <p class="text-[#FFFFFF]">Connect with tech enthusiasts from over 120 countries worldwide.</p>
                 </div>
                 <div class="col-span-2 bg-[rgba(53,17,101,0.4)] rounded-2xl p-8 flex flex-col gap-4 text-left">
                   <img class="w-12 h-12" src="assets/headphone.png" alt="">
-                  <h3 class="text-[#FFFFFF]">Premium Audio Quality</h3>
-                  <p class="text-[#FFFFFF]">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+                  <h3 class="text-[#FFFFFF]">Exclusive Interviews</h3>
+                  <p class="text-[#FFFFFF]">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
                 </div>
                 <div class="bg-[rgba(53,17,101,0.4)] rounded-2xl p-8 flex flex-col gap-4 text-left">
-                  <img class="w-12 h-12" src="assets/headphone.png" alt="">
+                  <img class="w-12 h-12" src="assets/resource.png" alt="">
                   <h3 class="text-[#FFFFFF]">Premium Audio Quality</h3>
                   <p class="text-[#FFFFFF]">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
                 </div>
                 
               </section>
         </div>
+
+        <section class="episode bg-[#1A0B2E]">
+          <div class="feature episode p-28">
+             <h2 class="text-[#FFFFFF] text-5xl flex justify-center">Featured Episodes</h2>
+          </div>
+            <div class="episode-container flex flex-col justify-center gap-6 lg:flex-row justify-center gap-6 sm:flex flex-col justify-center items-center">
+          <div class="content bg-[rgba(53,17,101,0.4)] rounded-2xl flex flex-col gap-4 text-left w-[380px] overflow-hidden">
+              
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/dpJxDb4be70?si=ei32F9QmDYfsfltp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <h3 class="text-[#FFFFFF]">The Future of AI in Everyday Life</h3>
+              <p class="text-[#FFFFFF]">Exploring how artificial intelligence is transforming our daily routines and what to <br> expect in the next decade.</p>
+              <div class="flex">
+                <img src="assets/clock.png" alt="">
+                <p class="text-[#00FF88]">42 min</p>
+              </div>
+          </div>
+          <div class="content bg-[rgba(53,17,101,0.4)] rounded-2xl flex flex-col  gap-4 text-left w-[380px] overflow-hidden">
+              
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/PLBYYdg0sfs?si=XOA_1HeXOuC8KjfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <h3 class="text-[#FFFFFF]">Building Better Habits for Remote Work</h3>
+              <p class="text-[#FFFFFF]">Practical strategies for staying productive and <br> maintaining work-life balance in a...</p>
+              <div class="flex">
+                <img src="assets/clock.png" alt="">
+                <p class="text-[#00FF88]">35 min</p>
+              </div>
+          </div>
+          <div class="content bg-[rgba(53,17,101,0.4)] rounded-2xl flex flex-col gap-4 text-left w-[380px] overflow-hidden ">
+              
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/WvGHbDpv24k?si=vSGRi2GZ9_xg_j0S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <h3 class="text-[#FFFFFF]">Career Growth in Tech: A Roadmap</h3>
+              <p class="text-[#FFFFFF]">Expert advice on navigating your tech career from junior developer to senior leadership...<br> expect in the next decade.</p>
+              <div class="flex">
+                <img src="assets/clock.png" alt="">
+                <p class="text-[#00FF88]">51 min</p>
+              </div>
+          </div>
+          </div>
+        </section>
     </main>
 
     <footer>
