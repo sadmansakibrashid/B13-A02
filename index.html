@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
+   <!-- <link rel="stylesheet" href="tailwind.css"> -->
+   <style>
+    .font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  }
+   </style>
 </head>
-<body>
+<body class="font-inter">
     <header>
           <nav class="bg-[#1A0B2E]">
             <div class="parent flex justify-around items-center sm:flex justify-between items-center p-5 lg:px-48 pt-7 pb-7">
@@ -53,7 +62,7 @@
     </header>
 
 
-    <main class="bg-[#1A0B2E]">
+    <main class="bg-[#1A0B2E] pb-[120px]">
         <div class="podcast flex-row justify-center text-center">
           <h1 class="text-[#FFFFFF] text-5xl">About the Podcast</h1>
           <p class="text-[#FFFFFF]">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>
@@ -157,7 +166,7 @@ and share stories of personal growth from industry leaders.
           </div>
         </section>
         <section class="bottom max-w-[1200px] mx-auto">
-            <h2 class="text-[#FFFFFF] text-5xl flex justify-center">Meet the Host</h2>
+            <h2 class="text-[#FFFFFF] text-5xl flex justify-center pb-12">Meet the Host</h2>
             <div class="bg-[rgba(53,17,101,0.4)] flex flex-col items-center justify-center lg:flex flex-col items-center justify-center sm:flex-row items-center justify-center text-center">
               <div class="m-10"><img src="assets/host.png" alt=""></div>
               <div>
@@ -176,7 +185,30 @@ and share stories of personal growth from industry leaders.
     </main>
 
     <footer>
-
+          <section class="bg-[url('/assets/footer-bg.png')] bg-no-repeat bg-center bg-cover max-w-[1600px] mx-auto h-[600px]" >
+              <div class="flex justify-center pt-[120px] pb-[32px]">
+                <img src="assets/TechWave.png" alt="">
+              </div>
+              <div class="flex justify-center gap-2">
+                <div class="flex">
+                  <img src="assets/spotify.png" alt="">
+                  <p class="text-[#FFFFFF]">Spotify</p>
+                </div>
+                <div class="flex">
+                  <img src="assets/apple-podcast.png" alt="">
+                  <p class="text-[#FFFFFF]">Apple Podcasts</p>
+                </div>
+                <div class="flex">
+                  <img src="assets/youtube-podcast.png" alt="">
+                  <p class="text-[#FFFFFF]">YouTube</p>
+                </div>
+                <div class="flex">
+                  <img src="assets/twitter.png" alt="">
+                  <p class="text-[#FFFFFF]">Twitter</p>
+                </div>
+              </div>
+              <p class="text-[#FFFFFF] flex justify-center pt-[32px]">© 2026 TechWave Podcast. All rights reserved.</p>
+          </section>
     </footer>
 </body>
 </html>
